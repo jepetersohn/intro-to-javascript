@@ -1,41 +1,41 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>JavaScript for Beginners</title>
+  <title>JavaScript for Beginners</title>
 
-    <meta name="description" content="Dev Bootcamp Evening Workshop Series: JavaScript for Beginners">
-    <meta name="author" content="Sam Blackman">
+  <meta name="description" content="Dev Bootcamp Evening Workshop Series: JavaScript for Beginners">
+  <meta name="author" content="Sam Blackman">
 
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-    <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/blood.css" id="theme">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/blood.css" id="theme">
 
-    <!-- Code syntax highlighting -->
-    <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
 
-    <!-- Printing and PDF exports -->
-    <script>
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
+  <!-- Printing and PDF exports -->
+  <script>
+  var link = document.createElement( 'link' );
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+  document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
 
-    <style>
-      strong  { font-weight: normal; color: orange; font-variant: normal; }
-      .breakout { color: orange; }
-      .reveal a:not(.image) { color: orange; }
-      .reveal pre {box-shadow:none; margin-bottom: 0;}
-      .reveal code { border: 4px solid white; }
-    </style>
+  <style>
+  strong  { font-weight: normal; color: orange; font-variant: normal; }
+  .breakout { color: orange; }
+  .reveal a:not(.image) { color: orange; }
+  .reveal pre {box-shadow:none; margin-bottom: 0;}
+  .reveal code { border: 4px solid white; }
+  </style>
 
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
@@ -44,7 +44,7 @@
 
   <body>
 
-<div class="reveal">
+    <div class="reveal">
 
       <div class="slides">
         <section>
@@ -251,8 +251,8 @@
           <p>The <strong>syntax</strong> for creating strings in JavaScript is to wrap any number of characters in single or double quotes.</p>
           <pre>
             <code data-trim class="javascript">
-"This is a string."
-'This is also a string.'
+              "This is a string."
+              'This is also a string.'
             </code>
           </pre>
         </section>
@@ -283,80 +283,80 @@
         <section>
           <h2>Numbers</h2>
           <p>The <strong>syntax</strong> for numbers in JavaScript is fairly intuitive.</p>
-            <pre>
-              <code class="javascript">
-42
-3.14
-100
-10000
-              </code>
-            </pre>
+          <pre>
+            <code class="javascript">
+              42
+              3.14
+              100
+              10000
+            </code>
+          </pre>
         </section>
 
         <section>
           <h2>Numbers</h2>
           <p>You can perform simple arithmetic on numbers using:</p>
-            <table>
-              <tr>
-                <td>Addition</td>
-                <td>+</td>
-              </tr>
-              <tr>
-                <td>Subtraction</td>
-                <td>-</td>
-              </tr>
-              <tr>
-                <td>Multiplication</td>
-                <td>*</td>
-              </tr>
-              <tr>
-                <td>Division</td>
-                <td>/</td>
-              </tr>
-              <tr>
-                <td>Modulus</td>
-                <td>%</td>
-              </tr>
-              <tr>
-                <td>Increment</td>
-                <td>++</td>
-              </tr>
-              <tr>
-                <td>Decrement</td>
-                <td>--</td>
-              </tr>
-            </table>
+          <table>
+            <tr>
+              <td>Addition</td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td>Subtraction</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Multiplication</td>
+              <td>*</td>
+            </tr>
+            <tr>
+              <td>Division</td>
+              <td>/</td>
+            </tr>
+            <tr>
+              <td>Modulus</td>
+              <td>%</td>
+            </tr>
+            <tr>
+              <td>Increment</td>
+              <td>++</td>
+            </tr>
+            <tr>
+              <td>Decrement</td>
+              <td>--</td>
+            </tr>
+          </table>
         </section>
 
         <section>
           <h2>Numbers</h2>
           <p>You can also perform simple comparison operations on numbers using:</p>
-            <table>
-              <tr>
-                <td>Equality</td>
-                <td>===</td>
-              </tr>
-              <tr>
-                <td>Inequality</td>
-                <td>!==</td>
-              </tr>
-              <tr>
-                <td>Greater than</td>
-                <td>></td>
-              </tr>
-              <tr>
-                <td>Greater than or equal to</td>
-                <td>>=</td>
-              </tr>
-              <tr>
-                <td>Less than</td>
-                <td><</td>
-              </tr>
-              <tr>
-                <td>Less than or equal to</td>
-                <td><=</td>
-              </tr>
-            </table>
+          <table>
+            <tr>
+              <td>Equality</td>
+              <td>===</td>
+            </tr>
+            <tr>
+              <td>Inequality</td>
+              <td>!==</td>
+            </tr>
+            <tr>
+              <td>Greater than</td>
+              <td>></td>
+            </tr>
+            <tr>
+              <td>Greater than or equal to</td>
+              <td>>=</td>
+            </tr>
+            <tr>
+              <td>Less than</td>
+              <td><</td>
+            </tr>
+            <tr>
+              <td>Less than or equal to</td>
+              <td><=</td>
+            </tr>
+          </table>
         </section>
 
         <section>
@@ -405,15 +405,15 @@
           <h2>Breaking it down</h2>
           <pre>
             <code class="javascript">
-var          // is a reserved word used to declare a variable
+              var          // is a reserved word used to declare a variable
 
-magicNumber  // is the variable name
+              magicNumber  // is the variable name
 
-=            // is the assignment operator
+              =            // is the assignment operator
 
-42           // is the value assigned to the variable
+              42           // is the value assigned to the variable
 
-;            // signifies the end of a statement in JavaScript
+              ;            // signifies the end of a statement in JavaScript
             </code>
           </pre>
         </section>
@@ -428,16 +428,16 @@ magicNumber  // is the variable name
           <p>You can directly assign values to <strong>variables</strong>...</p>
           <pre>
             <code class="javascript">
-var seenIt = "...like we've already seen";
+              var seenIt = "...like we've already seen";
             </code>
           </pre>
           <p>...or store <strong>return values</strong> of expressions in <strong>variables</strong></p>
           <pre>
             <code class="javascript">
-var num = 3;
-var otherNum = 4;
-var multiplier = 6;
-var answerToTheUltimateQuestion = (num + otherNum) * multiplier;
+              var num = 3;
+              var otherNum = 4;
+              var multiplier = 6;
+              var answerToTheUltimateQuestion = (num + otherNum) * multiplier;
             </code>
           </pre>
           <aside class="notes">
@@ -482,7 +482,7 @@ var answerToTheUltimateQuestion = (num + otherNum) * multiplier;
           <p>If we were to put the first eight characters of the alphabet into these buckets, it would look like this in JavaScript:</p>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c","d","e","f","g","h"];
+              var letters = ["a","b","c","d","e","f","g","h"];
             </code>
           </pre>
           <p>An <strong>array</strong> of the characters "a" through "h" is now stored in the variable `letters`. This is an array of <strong>strings</strong>.</p>
@@ -527,9 +527,9 @@ var letters = ["a","b","c","d","e","f","g","h"];
           <h4>Accessing values</h4>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c","d","e","f","g","h"];
-letters[0] // returns "a"
-letters[7] // returns "h"
+              var letters = ["a","b","c","d","e","f","g","h"];
+              letters[0] // returns "a"
+              letters[7] // returns "h"
             </code>
           </pre>
         </section>
@@ -539,10 +539,10 @@ letters[7] // returns "h"
           <h4>Updating values</h4>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c","d","e","f","g","h"];
-letters[0] = "apples"  // returns "apples"
-letters[1] = "bananas" // returns "bananas"
-letters      // returns ["apples","bananas","c","d","e","f","g","h"]
+              var letters = ["a","b","c","d","e","f","g","h"];
+              letters[0] = "apples"  // returns "apples"
+              letters[1] = "bananas" // returns "bananas"
+              letters      // returns ["apples","bananas","c","d","e","f","g","h"]
             </code>
           </pre>
         </section>
@@ -552,9 +552,9 @@ letters      // returns ["apples","bananas","c","d","e","f","g","h"]
           <h4>Inserting values</h4>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c","d"];
-letters.push("elephant") // returns "elephant"
-letters // returns ["a","b","c","d","elephant"]
+              var letters = ["a","b","c","d"];
+              letters.push("elephant") // returns "elephant"
+              letters // returns ["a","b","c","d","elephant"]
             </code>
           </pre>
           <p>The <strong>push</strong> method adds an element to the end of an array.</p>
@@ -565,9 +565,9 @@ letters // returns ["a","b","c","d","elephant"]
           <h4>Inserting values</h4>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c","d", "elephant"];
-letters.unshift("zebra") // returns "zebra"
-letters // returns ["zebra","a","b","c","d", "elephant"]
+              var letters = ["a","b","c","d", "elephant"];
+              letters.unshift("zebra") // returns "zebra"
+              letters // returns ["zebra","a","b","c","d", "elephant"]
             </code>
           </pre>
           <p>The <strong>unshift</strong> method adds an element to the start of an array.</p>
@@ -579,9 +579,9 @@ letters // returns ["zebra","a","b","c","d", "elephant"]
           <h4>Removing values</h4>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c","d"];
-var char = letters.pop() // returns "d"
-letters // returns ["a","b","c"]
+              var letters = ["a","b","c","d"];
+              var char = letters.pop() // returns "d"
+              letters // returns ["a","b","c"]
             </code>
           </pre>
           <p>The <strong>pop</strong> method removes an element from the end of an array.</p>
@@ -593,9 +593,9 @@ letters // returns ["a","b","c"]
           <h4>Removing values</h4>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c","d"];
-var char = letters.shift() // returns "a"
-letters // returns ["b","c", "d"]
+              var letters = ["a","b","c","d"];
+              var char = letters.shift() // returns "a"
+              letters // returns ["b","c", "d"]
             </code>
           </pre>
           <p>The <strong>shift</strong> method removes an element from the start of an array.</p>
@@ -615,13 +615,13 @@ letters // returns ["b","c", "d"]
           <h2>Method syntax</h2>
           <pre>
             <code class="javascript">
-var letters = ["a","b","c"];
-letters.push("d");
-// --------------------------
-letters // the array that we're calling our method on
-.       // the dot to signify we're about to call a method
-push    // the name of the method
-("d")   // the actual calling of the method with a string argument
+              var letters = ["a","b","c"];
+              letters.push("d");
+              // --------------------------
+              letters // the array that we're calling our method on
+              .       // the dot to signify we're about to call a method
+              push    // the name of the method
+              ("d")   // the actual calling of the method with a string argument
             </code>
           </pre>
           <p>We <strong>call a method</strong> with a dot, followed by the method name, followed by a set of parentheses. Sometimes we put other data inside the parens, known as <strong>arguments</strong>; other times methods don't require arguments.</p>
@@ -636,11 +636,11 @@ push    // the name of the method
           <h2>Properties</h2>
           <pre>
             <code class="javascript">
-var fruits = ["apple","banana","carrot"];
-fruits.length // returns 3
-fruits[2].length // returns 6
-fruits.push("d");
-fruits.length // returns 4
+              var fruits = ["apple","banana","carrot"];
+              fruits.length // returns 3
+              fruits[2].length // returns 6
+              fruits.push("d");
+              fruits.length // returns 4
             </code>
           </pre>
           <p><strong>length</strong> is a good example of a <strong>property</strong> on both arrays and strings. Note how properties don't need parentheses after them.</p>
@@ -670,21 +670,21 @@ fruits.length // returns 4
           <p>Let's <strong>instantiate</strong> an object in JavaScript:</p>
           <pre>
             <code class="javascript">
-var person = {name: "Sam", age: 28, sex: "male"};
+              var person = {name: "Sam", age: 28, sex: "male"};
             </code>
           </pre>
           <p>This <strong>object</strong> contains three <strong>key value pairs</strong> and the object is stored in the variable `person`.</p>
           <aside class="notes">What data type are the values in this object?</aside>
         </section>
 
-                <section>
+        <section>
           <h2>Objects</h2>
           <h4>Accessing values</h4>
           <pre>
             <code class="javascript">
-var person = {name: "Sam", age: 28, sex: "male"};
-person.name      // returns "Sam"
-person["name"]   // returns "Sam"
+              var person = {name: "Sam", age: 28, sex: "male"};
+              person.name      // returns "Sam"
+              person["name"]   // returns "Sam"
             </code>
           </pre>
         </section>
@@ -694,14 +694,14 @@ person["name"]   // returns "Sam"
           <h4>Updating values</h4>
           <pre>
             <code class="javascript">
-var person = {name: "Sam", age: 28, sex: "male"};
-person.age = 29      // returns 29
+              var person = {name: "Sam", age: 28, sex: "male"};
+              person.age = 29      // returns 29
 
-person
-// now contains
-{name: "Sam", age: 29, sex: "male"}
+              person
+              // now contains
+              {name: "Sam", age: 29, sex: "male"}
 
-person.age           // returns 29
+              person.age           // returns 29
             </code>
           </pre>
         </section>
@@ -711,12 +711,12 @@ person.age           // returns 29
           <h4>Inserting values</h4>
           <pre>
             <code class="javascript">
-var person = {name: "Sam", age: 28, sex: "male"};
-person.gender = "cis male"  // returns "cis male"
+              var person = {name: "Sam", age: 28, sex: "male"};
+              person.gender = "cis male"  // returns "cis male"
 
-person
-// now contains
-{name: "Sam", age: 28, sex: "male", gender: "cis male"}
+              person
+              // now contains
+              {name: "Sam", age: 28, sex: "male", gender: "cis male"}
             </code>
           </pre>
         </section>
@@ -726,14 +726,14 @@ person
           <h4>Removing values</h4>
           <pre>
             <code class="javascript">
-var person = {name: "Sam", age: 28, sex: "male", gender: "cis male"}
-delete person.sex // returns true
+              var person = {name: "Sam", age: 28, sex: "male", gender: "cis male"}
+              delete person.sex // returns true
 
-person
-// now contains
-{name: "Sam", age: 28, gender: "cis male"}
+              person
+              // now contains
+              {name: "Sam", age: 28, gender: "cis male"}
 
-person.sex        // returns undefined
+              person.sex        // returns undefined
             </code>
           </pre>
           <p>The <strong>delete</strong> operator removes a <strong>key value pair</strong> from an object.</p>
@@ -748,11 +748,11 @@ person.sex        // returns undefined
           <p>We've been using <strong>dot notation</strong> when working with objects.</p>
           <pre>
             <code class="javascript">
-var person = {name: "Sam", age: 28, gender: "cis male"}
+              var person = {name: "Sam", age: 28, gender: "cis male"}
 
-person.name
-person.age
-person.gender
+              person.name
+              person.age
+              person.gender
             </code>
           </pre>
           <p>What type of thing does that suggest `name`, `age`, and `gender` are?</p>
@@ -769,484 +769,486 @@ person.gender
           <h2>omg let's build.</h2>
           <p><a href="http://bit.ly/dbc-js-intro">bit.ly/dbc-js-intro</a></p>
           <aside class="fragment">
-            With your neighbor, model the following using the data types and structures you just learned:
+            <p>           With your neighbor, model the following using the data types and structures you just learned:</p> 
             <ul>
               <li>A list of three different people</li>
               <li>The people should have names, ages and a list of their three favorite foods.</li>
             </ul>
-            What is the best way to do this? <ul>
-<li>Arrays? </li>
-<li>Objects? </li>
-<li>Arrays of Objects? </li>
-          </ul>
-           Enter your data structure into the console and work through any errors. 
-          </aside>
-        </section>
-
-        <section>
-          <h2>Up next</h2>
-          <ul>
-            <li>Loops</li>
-            <li>Conditionals</li>
-            <li>Functions</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>Doing certain things over and over and over and over is a <a target="_blank" href="https://youtu.be/gs9NgGZkErU?t=54s">very common thing when coding</a></p>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>We will look at the syntax for two JavaScript <strong>loops</strong>:</p>
-          <ul>
-            <li>for</li>
-            <li>while</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>This is the syntax for a <strong>while loop</strong>.</p>
-          <pre>
-            <code class="javascript">
-var counter = 1;
-while (counter <= 10) {
-  console.log("I'm counting in multiples of five!");
-  console.log("Here's what's next: " + counter * 5)
-  counter++
-}
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>Here's the same operation using a <strong>for loop</strong>.</p>
-          <pre>
-            <code class="javascript">
-for (var counter = 1; counter <= 10; counter++) {
-  console.log("I'm counting in multiples of five!");
-  console.log("Here's what's next: " + counter * 5)
-}
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>Compare the two:</p>
-          <pre>
-            <code class="javascript">
-var counter = 1;
-while (counter <= 10) {
-  console.log("I'm counting in multiples of five!");
-  console.log("Here's what's next: " + counter * 5)
-  counter++
-}
-// -------------------------------------------------
-
-for (var counter = 1; counter <= 10; counter++) {
-  console.log("I'm counting in multiples of five!");
-  console.log("Here's what's next: " + counter * 5)
-}
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Warning!</h2>
-          <p>Be careful not to code a loop that will never end. It will cause your browser to freeze and crash!</p>
-          <pre>
-            <code class="javascript">
-// Don't run the following code!
-var counter = 1;
-while (counter <= 10) {
-  console.log("I'm counting in multiples of five!");
-  console.log("Here's what's next: " + counter * 5)
-}
-            </code>
-          </pre>
-          <p>This is called an <strong>infinite loop</strong>. Can you see why it never ends?</p>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>Here's a fun game with a <strong>while loop</strong>.</p>
-          <pre>
-            <code class="javascript">
-var secretPhrase = "bananas"
-var userInput
-while (userInput !== secretPhrase) {
-  userInput = prompt("Haha! You will continue to get this annoying\
-  pop up until you guess the secret phrase!")
-}
-alert("Drat! You guessed it!")
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>The most common use of loops is to <strong>loop over collections</strong>. We loop over collections when we want to do something with every element in a collection.</p>
-        </section>
-
-        <section>
-          <h2>Loops</h2>
-          <p>Here's a <strong>for loop</strong> looping over and printing out every element in our letters array:</p>
-          <pre>
-            <code class="javascript">
-var letters = ["a","b","c","d","e","f","g","h"];
-for (var i = 0; i < letters.length; i++) {
-  console.log(letters[i]);
-}
-            </code>
-          </pre>
-          <p>There's a lot going on here. So let's talk through it.</p>
-        </section>
-
-        <section>
-          <h2>Try it yourself!</h2>
-          <p>Open up your handy dandy <strong>JavaScript console</strong> by pressing <span class="breakout">Cmd+Opt+J</span> on Mac or <span class="breakout">Ctrl+Shift+J</span> on other systems.</p>
-          <img src="img/javascript-console.jpg">
-          <aside class="notes">
-            Try looping over the list of people you made in our last breakout sesssion and printing out everyone's name AND their age...
-            You can paste your data structure into the console, or you can write your loop in the file on your desktop.
-          </aside>
-        </section>
-
-        <section>
-          <h2>Conditionals</h2>
-          <p>Sometimes you want your code to do different things depending on different inputs. This is called <strong>control flow</strong>.</p>
-        </section>
-
-        <section>
-          <h2>Conditionals</h2>
-          <p>Maybe you need to check someone's age before you let them use your program:</p>
-          <pre>
-            <code class="javascript">
-var age = prompt("How old are you?");
-if (age >= 18) {
-  alert("Welcome to this program!")
-} else {
-  alert("Sorry, you must be 18 or over to use this program.")
-}
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Breaking it down</h2>
-          <p></p>
-          <pre>
-            <code class="javascript">
-if           // reserved word to start a condtional
-(age >= 18)  // the "condition"
-{}           // the "code block" to run if the condition is true
-else         // reserved word at the end of a conditional
-{}           // the code block to run if all conditions are false
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Functions</h2>
-        </section>
-
-        <section>
-          <h2>What is a function?</h2>
-          <p>A <strong>function</strong> is a selection of code that you can save and run later, potentially multiple times.</p>
-        </section>
-
-        <section>
-          <h2>Function syntax</h2>
-          <p>We <strong>define a function</strong> like this:</p>
-          <pre>
-            <code class="javascript">
-var createGreeting = function(name) {
-  return "Welcome to my website, " + name;
-}
-            </code>
-          </pre>
-          <p>The code is now stored in the variable `createGreeting`. Now we can call this the <strong>createGreeting function</strong>.</p>
-        </section>
-
-        <section>
-          <h2>Calling a function</h2>
-          <p>We <strong>call a function</strong> by typing its name, followed by parentheses.</p>
-          <pre>
-            <code class="javascript">
-var createGreeting = function(name) {
-  return "Welcome to my website, " + name;
-}
-
-createGreeting("Sam")     // returns "Welcome to my website, Sam"
-
-createGreeting("Debbie")  // returns "Welcome to my website, Debbie"
-
-createGreeting("Britney") // returns "Welcome to my website, Britney"
-
-alert(createGreeting("Stranger"))
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Input and Output</h2>
-          <p>Functions allow us to <strong>input</strong> some data and <strong>output</strong> other data.</p>
-        </section>
-
-        <section>
-          <h2>Arguments</h2>
-          <p>The input that we give to functions are called <strong>arguments</strong>.</p>
-          <pre>
-            <code class="javascript">
-var sum = function(num1, num2) {}
-            </code>
-          </pre>
-          <p>`num1` and `num2` are the <strong>parameters</strong> in this function that show us that we can pass it two arguments.</p>
-        </section>
-
-        <section>
-          <h2>Return values</h2>
-          <p>The output from a function is its <strong>return value</strong>.</p>
-          <pre>
-            <code class="javascript">
-var sum = function(num1, num2) {
-  var result = num1 + num2;
-  return result;
-}
-            </code>
-          </pre>
-          <p>Usually we manipulate our input in some useful way and then <strong>return</strong> that data.</p>
-          <aside class="notes">Note as in this example, a function can have multiple parameters. These parameters act as variables within the function and any arguments you pass to this function when you call it will be accessible inside those variables/parameters.</aside>
-        </section>
-
-        <section>
-          <h2>Functions</h2>
-          <p>Functions don't actually need parameters or a return statement. Here's an example:</p>
-          <pre>
-            <code class="javascript">
-var woohoo = function() {
-  alert("WOOHOO!");
-}
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Try it yourself!</h2>
-          <p>Open up your handy dandy <strong>JavaScript console</strong> by pressing <span class="breakout">Cmd+Opt+J</span> on Mac or <span class="breakout">Ctrl+Shift+J</span> on other systems.</p>
-          <img src="img/javascript-console.jpg">
-          <aside class="notes">
-            Build a "triangle checker" function in your console.
+            <p> What is the best way to do this?</p> 
             <ul>
-              <li>It should take three arguments</li>
-              <li>Each of those arguments represents an angle</li>
-              <li>If those three numbers add up to 180, then return true</li>
-              <li>If those three numbers don't add up to 180, then return false</li>
-            </ul>
-          </aside>
-        </section>
-
-        <section>
-          <h2>jQuery</h2>
-          <img src="img/jquery-modern-logo.jpg">
-          <p>A JavaScript library that makes it easier for us to interact with webpages.</p>
-        </section>
-
-        <section>
-          <h2>Some new files!</h2>
-          <a href="http://bit.ly/dbc-jquery-intro">bit.ly/dbc-jquery-intro</a>
-        </section>
-
-        <section>
-          <h2>Loading jQuery</h2>
-          <p>In the index.html file, you'll see a <strong>&lt;script&gt; element</strong> linking to a copy of the jQuery in the same folder. This is one way to include jQuery on your page.</p>
-          <p class="fragment">You'll also see a &lt;script&gt; element that is commented out. This is another way of including jQuery: by linking to an external source.</p>
-        </section>
-
-        <section>
-          <h2>Selecting elements</h2>
-          <p>We are going to be playing with the <strong>HTML elements</strong> on our page. To do that, we first need to <strong>select</strong> those elements using jQuery.</p>
-        </section>
-
-        <section>
-          <h2>Selecting elements</h2>
-          <p>The syntax for <strong>selecting elements</strong> with jQuery is:</p>
-          <pre>
-            <code class="javascript">
-$("div")
-            </code>
-          </pre>
-          <p>This will select all of the div elements on the page.</p>
-        </section>
-
-        <section>
-          <h2>Selecting elements</h2>
-          <p>You can use any <strong>CSS selection</strong> syntax with jQuery:</p>
-          <pre>
-            <code class="javascript">
-// to select all paragraph elements:
-$("p")
-
-// to select all elements with the class 'shadow':
-$(".shadow")
-
-// to select the element with the id 'main-container':
-$("#main-container")
-            </code>
-          </pre>
-          <p>Just remember to wrap your <strong>selector</strong> in quote marks to make it a <strong>string</strong>.</p>
-        </section>
-
-        <section>
-          <h2>jQuery methods</h2>
-          <p>Once we have selected elements, we can <strong>call jQuery methods</strong> on those elements:</p>
-          <pre>
-            <code class="javascript">
-$("p").css("background-color", "aqua");
-            </code>
-          </pre>
-          <p>This selects all paragraphs and then turns their background colors <span style="color: aqua; font-weight: 600;">aqua!</span></p>
-        </section>
-
-        <section>
-          <h2>Try it yourself!</h2>
-          <p>Open up your handy dandy <strong>JavaScript console</strong> by pressing <span class="breakout">Cmd+Opt+J</span> on Mac or <span class="breakout">Ctrl+Shift+J</span> on other systems.</p>
-          <p>Make sure you open it up on the  <strong>index.html</strong> page that has jQuery loaded!</p>
-          <img src="img/javascript-console.jpg">
-          <aside class="notes">
-            <ul>
-              <li>Try changing the styling of different elements using jQuery.</li>
-              <li>Replace the text in the paragraph using the "text" jQuery method.</li>
-            </ul>
-          </aside>
-        </section>
-
-        <section>
-          <h2>Listening for events</h2>
-          <p>Interacting with a website through <strong>clicks</strong> and <strong>keystrokes</strong> really brings JavaScript (and websites) to life!</p>
-        </section>
-
-        <section>
-          <h2>Listening for events</h2>
-          <p>Let's learn how to tell certain elements on our page to <strong>listen for a click event</strong>.</p>
-        </section>
-
-        <section>
-          <h2>Listening for events</h2>
-          <p>First we need to <strong>select an element</strong>. Let's select our button:</p>
-          <pre>
-            <code class="javascript">
-$("#load-tweets-button")
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Listening for events</h2>
-          <p>Now we need to <strong>bind a click event</strong> to our button:</p>
-          <pre>
-            <code class="javascript">
-$("#load-tweets-button").click(function() {
-  alert("Button clicked!");
-})
-            </code>
-          </pre>
-          <p>What this says is: 'whenever this thing I have selected is clicked, run the code in this function'.</p>
-        </section>
-
-        <section>
-          <h2>Listening for events</h2>
-          <p>One very common thing to do when a button is clicked is to <strong>update something else on the page</strong>.</p>
-          <pre>
-            <code class="javascript">
-$("#load-tweets-button").click(function() {
-  // your code here that updates something else on the page, maybe:
-  $("p").css("background-color", "aqua");
-})
-            </code>
-          </pre>
-          <p>Now whenever you click the button, all the paragraphs will turn <span style="color: aqua; font-weight: 600;">aqua!</span></p>
-        </section>
-
-        <section>
-          <h2>Updating the page</h2>
-        </section>
-
-        <section>
-          <h2>Updating the page</h2>
-          <p>Here's one more super helpful <strong>jQuery method</strong> called `append`:</p>
-          <pre>
-            <code class="javascript">
-$("#main-container").append("<p>A friendly paragraph!</p>")
-            </code>
-          </pre>
-          <p>The append method will append whatever <strong>HTML string</strong> you pass it as an argument to the element(s) you originally <strong>selected</strong>.</p>
-        </section>
-
-        <section>
-          <h2>Updating the page</h2>
-          <p>Remember, you can add things to strings like this: </p>
-          <pre>
-            <code class="javascript">
-var dataFromSomewhere = "A friendly paragraph!"
-$("#main-container").append("<p>" + dataFromSomewhere + "</p>")
-            </code>
-          </pre>
-          <p>This is called <strong>string concatenation</strong>.</p>
-        </section>
-
-        <section>
-          <h2>Putting it all together</h2>
-          <p>You now have all the tools to dynamically create a webpage! It might strain your brain, but it's time to put <strong>everything we learnt into practice</strong>.</p>
-        </section>
-
-        <section>
-          <h2>omg let's build.</h2>
-          <a href="http://bit.ly/dbc-jquery-intro">bit.ly/dbc-jquery-intro</a>
-          <aside class="fragment">
-            <p>Task: when you click the button all of the tweets will appear in new paragraphs on the page.</p>
-            You will need to use:
-            <ul>
-              <li>Loops</li>
-              <li>Array methods</li>
-              <li>Object methods</li>
-              <li>jQuery selectors</li>
-              <li>jQuery event listeners</li>
-              <li>the jQuery append method</li>
-            </ul>
-          </aside>
-        </section>
-
-        <section>
-          <h2>Resources to learn more</h2>
-          <ul>
-            <li>Codecademy</li>
-            <li>Code School</li>
-            <li>Treehouse</li>
-            <li>Stack Overflow</li>
-            <li>jQuery Documentation</li>
-            <li>MDN (Mozilla Developer Network)</li>
-            <li>W3 Schools</li>
-            <li>Guides and blog posts</li>
-            <li>Google</li>
-            <li>Playing around!</li>
+            <li>Arrays? </li>
+            <li>Objects? </li>
+            <li>Arrays of Objects? </li>
           </ul>
-        </section>
+          <p>Enter your data structure into the console and work through any errors. 
+          </p>
+        </aside>
+      </section>
 
-        <section>
-          <h2>Thanks for joining us!</h2>
-        </section>
-      </div>
-    </div>
+      <section>
+        <h2>Up next</h2>
+        <ul>
+          <li>Loops</li>
+          <li>Conditionals</li>
+          <li>Functions</li>
+        </ul>
+      </section>
 
-    <script src="lib/js/head.min.js"></script>
-    <script src="js/reveal.js"></script>
+      <section>
+        <h2>Loops</h2>
+        <p>Doing certain things over and over and over and over is a <a target="_blank" href="https://youtu.be/gs9NgGZkErU?t=54s">very common thing when coding</a></p>
+      </section>
 
-    <script>
+      <section>
+        <h2>Loops</h2>
+        <p>We will look at the syntax for two JavaScript <strong>loops</strong>:</p>
+        <ul>
+          <li>for</li>
+          <li>while</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Loops</h2>
+        <p>This is the syntax for a <strong>while loop</strong>.</p>
+        <pre>
+          <code class="javascript">
+            var counter = 1;
+            while (counter <= 10) {
+            console.log("I'm counting in multiples of five!");
+            console.log("Here's what's next: " + counter * 5)
+            counter++
+          }
+        </code>
+      </pre>
+    </section>
+
+    <section>
+      <h2>Loops</h2>
+      <p>Here's the same operation using a <strong>for loop</strong>.</p>
+      <pre>
+        <code class="javascript">
+          for (var counter = 1; counter <= 10; counter++) {
+          console.log("I'm counting in multiples of five!");
+          console.log("Here's what's next: " + counter * 5)
+        }
+      </code>
+    </pre>
+  </section>
+
+  <section>
+    <h2>Loops</h2>
+    <p>Compare the two:</p>
+    <pre>
+      <code class="javascript">
+        var counter = 1;
+        while (counter <= 10) {
+        console.log("I'm counting in multiples of five!");
+        console.log("Here's what's next: " + counter * 5)
+        counter++
+      }
+      // -------------------------------------------------
+
+      for (var counter = 1; counter <= 10; counter++) {
+      console.log("I'm counting in multiples of five!");
+      console.log("Here's what's next: " + counter * 5)
+    }
+  </code>
+</pre>
+</section>
+
+<section>
+  <h2>Warning!</h2>
+  <p>Be careful not to code a loop that will never end. It will cause your browser to freeze and crash!</p>
+  <pre>
+    <code class="javascript">
+      // Don't run the following code!
+      var counter = 1;
+      while (counter <= 10) {
+      console.log("I'm counting in multiples of five!");
+      console.log("Here's what's next: " + counter * 5)
+    }
+  </code>
+</pre>
+<p>This is called an <strong>infinite loop</strong>. Can you see why it never ends?</p>
+</section>
+
+<section>
+  <h2>Loops</h2>
+  <p>Here's a fun game with a <strong>while loop</strong>.</p>
+  <pre>
+    <code class="javascript">
+      var secretPhrase = "bananas"
+      var userInput
+      while (userInput !== secretPhrase) {
+      userInput = prompt("Haha! You will continue to get this annoying\
+      pop up until you guess the secret phrase!")
+    }
+    alert("Drat! You guessed it!")
+  </code>
+</pre>
+</section>
+
+<section>
+  <h2>Loops</h2>
+  <p>The most common use of loops is to <strong>loop over collections</strong>. We loop over collections when we want to do something with every element in a collection.</p>
+</section>
+
+<section>
+  <h2>Loops</h2>
+  <p>Here's a <strong>for loop</strong> looping over and printing out every element in our letters array:</p>
+  <pre>
+    <code class="javascript">
+      var letters = ["a","b","c","d","e","f","g","h"];
+      for (var i = 0; i < letters.length; i++) {
+      console.log(letters[i]);
+    }
+  </code>
+</pre>
+<p>There's a lot going on here. So let's talk through it.</p>
+</section>
+
+<section>
+  <h2>Try it yourself!</h2>
+  <p>Open up your handy dandy <strong>JavaScript console</strong> by pressing <span class="breakout">Cmd+Opt+J</span> on Mac or <span class="breakout">Ctrl+Shift+J</span> on other systems.</p>
+  <img src="img/javascript-console.jpg">
+  <aside class="notes">
+    Try looping over the list of people you made in our last breakout sesssion and printing out everyone's name AND their age...
+    You can paste your data structure into the console, or you can write your loop in the file on your desktop.
+  </aside>
+</section>
+
+<section>
+  <h2>Conditionals</h2>
+  <p>Sometimes you want your code to do different things depending on different inputs. This is called <strong>control flow</strong>.</p>
+</section>
+
+<section>
+  <h2>Conditionals</h2>
+  <p>Maybe you need to check someone's age before you let them use your program:</p>
+  <pre>
+    <code class="javascript">
+      var age = prompt("How old are you?");
+      if (age >= 18) {
+      alert("Welcome to this program!")
+    } else {
+    alert("Sorry, you must be 18 or over to use this program.")
+  }
+</code>
+</pre>
+</section>
+
+<section>
+  <h2>Breaking it down</h2>
+  <p></p>
+  <pre>
+    <code class="javascript">
+      if           // reserved word to start a condtional
+      (age >= 18)  // the "condition"
+      {}           // the "code block" to run if the condition is true
+      else         // reserved word at the end of a conditional
+      {}           // the code block to run if all conditions are false
+    </code>
+  </pre>
+</section>
+
+<section>
+  <h2>Functions</h2>
+</section>
+
+<section>
+  <h2>What is a function?</h2>
+  <p>A <strong>function</strong> is a selection of code that you can save and run later, potentially multiple times.</p>
+</section>
+
+<section>
+  <h2>Function syntax</h2>
+  <p>We <strong>define a function</strong> like this:</p>
+  <pre>
+    <code class="javascript">
+      var createGreeting = function(name) {
+      return "Welcome to my website, " + name;
+    }
+  </code>
+</pre>
+<p>The code is now stored in the variable `createGreeting`. Now we can call this the <strong>createGreeting function</strong>.</p>
+</section>
+
+<section>
+  <h2>Calling a function</h2>
+  <p>We <strong>call a function</strong> by typing its name, followed by parentheses.</p>
+  <pre>
+    <code class="javascript">
+      var createGreeting = function(name) {
+      return "Welcome to my website, " + name;
+    }
+
+    createGreeting("Sam")     // returns "Welcome to my website, Sam"
+
+    createGreeting("Debbie")  // returns "Welcome to my website, Debbie"
+
+    createGreeting("Britney") // returns "Welcome to my website, Britney"
+
+    alert(createGreeting("Stranger"))
+  </code>
+</pre>
+</section>
+
+<section>
+  <h2>Input and Output</h2>
+  <p>Functions allow us to <strong>input</strong> some data and <strong>output</strong> other data.</p>
+</section>
+
+<section>
+  <h2>Arguments</h2>
+  <p>The input that we give to functions are called <strong>arguments</strong>.</p>
+  <pre>
+    <code class="javascript">
+      var sum = function(num1, num2) {}
+    </code>
+  </pre>
+  <p>`num1` and `num2` are the <strong>parameters</strong> in this function that show us that we can pass it two arguments.</p>
+</section>
+
+<section>
+  <h2>Return values</h2>
+  <p>The output from a function is its <strong>return value</strong>.</p>
+  <pre>
+    <code class="javascript">
+      var sum = function(num1, num2) {
+      var result = num1 + num2;
+      return result;
+    }
+  </code>
+</pre>
+<p>Usually we manipulate our input in some useful way and then <strong>return</strong> that data.</p>
+<aside class="notes">Note as in this example, a function can have multiple parameters. These parameters act as variables within the function and any arguments you pass to this function when you call it will be accessible inside those variables/parameters.</aside>
+</section>
+
+<section>
+  <h2>Functions</h2>
+  <p>Functions don't actually need parameters or a return statement. Here's an example:</p>
+  <pre>
+    <code class="javascript">
+      var woohoo = function() {
+      alert("WOOHOO!");
+    }
+  </code>
+</pre>
+</section>
+
+<section>
+  <h2>Try it yourself!</h2>
+  <p>Open up your handy dandy <strong>JavaScript console</strong> by pressing <span class="breakout">Cmd+Opt+J</span> on Mac or <span class="breakout">Ctrl+Shift+J</span> on other systems.</p>
+  <img src="img/javascript-console.jpg">
+  <aside class="notes">
+    Build a "triangle checker" function in your console.
+    <ul>
+      <li>It should take three arguments</li>
+      <li>Each of those arguments represents an angle</li>
+      <li>If those three numbers add up to 180, then return true</li>
+      <li>If those three numbers don't add up to 180, then return false</li>
+    </ul>
+  </aside>
+</section>
+
+<section>
+  <h2>jQuery</h2>
+  <img src="img/jquery-modern-logo.jpg">
+  <p>A JavaScript library that makes it easier for us to interact with webpages.</p>
+</section>
+
+<section>
+  <h2>Some new files!</h2>
+  <a href="http://bit.ly/dbc-jquery-intro">bit.ly/dbc-jquery-intro</a>
+</section>
+
+<section>
+  <h2>Loading jQuery</h2>
+  <p>In the index.html file, you'll see a <strong>&lt;script&gt; element</strong> linking to a copy of the jQuery in the same folder. This is one way to include jQuery on your page.</p>
+  <p class="fragment">You'll also see a &lt;script&gt; element that is commented out. This is another way of including jQuery: by linking to an external source.</p>
+</section>
+
+<section>
+  <h2>Selecting elements</h2>
+  <p>We are going to be playing with the <strong>HTML elements</strong> on our page. To do that, we first need to <strong>select</strong> those elements using jQuery.</p>
+</section>
+
+<section>
+  <h2>Selecting elements</h2>
+  <p>The syntax for <strong>selecting elements</strong> with jQuery is:</p>
+  <pre>
+    <code class="javascript">
+      $("div")
+    </code>
+  </pre>
+  <p>This will select all of the div elements on the page.</p>
+</section>
+
+<section>
+  <h2>Selecting elements</h2>
+  <p>You can use any <strong>CSS selection</strong> syntax with jQuery:</p>
+  <pre>
+    <code class="javascript">
+      // to select all paragraph elements:
+      $("p")
+
+      // to select all elements with the class 'shadow':
+      $(".shadow")
+
+      // to select the element with the id 'main-container':
+      $("#main-container")
+    </code>
+  </pre>
+  <p>Just remember to wrap your <strong>selector</strong> in quote marks to make it a <strong>string</strong>.</p>
+</section>
+
+<section>
+  <h2>jQuery methods</h2>
+  <p>Once we have selected elements, we can <strong>call jQuery methods</strong> on those elements:</p>
+  <pre>
+    <code class="javascript">
+      $("p").css("background-color", "aqua");
+    </code>
+  </pre>
+  <p>This selects all paragraphs and then turns their background colors <span style="color: aqua; font-weight: 600;">aqua!</span></p>
+</section>
+
+<section>
+  <h2>Try it yourself!</h2>
+  <p>Open up your handy dandy <strong>JavaScript console</strong> by pressing <span class="breakout">Cmd+Opt+J</span> on Mac or <span class="breakout">Ctrl+Shift+J</span> on other systems.</p>
+  <p>Make sure you open it up on the  <strong>index.html</strong> page that has jQuery loaded!</p>
+  <img src="img/javascript-console.jpg">
+  <aside class="notes">
+    <ul>
+      <li>Try changing the styling of different elements using jQuery.</li>
+      <li>Replace the text in the paragraph using the "text" jQuery method.</li>
+    </ul>
+  </aside>
+</section>
+
+<section>
+  <h2>Listening for events</h2>
+  <p>Interacting with a website through <strong>clicks</strong> and <strong>keystrokes</strong> really brings JavaScript (and websites) to life!</p>
+</section>
+
+<section>
+  <h2>Listening for events</h2>
+  <p>Let's learn how to tell certain elements on our page to <strong>listen for a click event</strong>.</p>
+</section>
+
+<section>
+  <h2>Listening for events</h2>
+  <p>First we need to <strong>select an element</strong>. Let's select our button:</p>
+  <pre>
+    <code class="javascript">
+      $("#load-tweets-button")
+    </code>
+  </pre>
+</section>
+
+<section>
+  <h2>Listening for events</h2>
+  <p>Now we need to <strong>bind a click event</strong> to our button:</p>
+  <pre>
+    <code class="javascript">
+      $("#load-tweets-button").click(function() {
+      alert("Button clicked!");
+    })
+  </code>
+</pre>
+<p>What this says is: 'whenever this thing I have selected is clicked, run the code in this function'.</p>
+</section>
+
+<section>
+  <h2>Listening for events</h2>
+  <p>One very common thing to do when a button is clicked is to <strong>update something else on the page</strong>.</p>
+  <pre>
+    <code class="javascript">
+      $("#load-tweets-button").click(function() {
+      // your code here that updates something else on the page, maybe:
+      $("p").css("background-color", "aqua");
+    })
+  </code>
+</pre>
+<p>Now whenever you click the button, all the paragraphs will turn <span style="color: aqua; font-weight: 600;">aqua!</span></p>
+</section>
+
+<section>
+  <h2>Updating the page</h2>
+</section>
+
+<section>
+  <h2>Updating the page</h2>
+  <p>Here's one more super helpful <strong>jQuery method</strong> called `append`:</p>
+  <pre>
+    <code class="javascript">
+      $("#main-container").append("<p>A friendly paragraph!</p>")
+    </code>
+  </pre>
+  <p>The append method will append whatever <strong>HTML string</strong> you pass it as an argument to the element(s) you originally <strong>selected</strong>.</p>
+</section>
+
+<section>
+  <h2>Updating the page</h2>
+  <p>Remember, you can add things to strings like this: </p>
+  <pre>
+    <code class="javascript">
+      var dataFromSomewhere = "A friendly paragraph!"
+      $("#main-container").append("<p>" + dataFromSomewhere + "</p>")
+    </code>
+  </pre>
+  <p>This is called <strong>string concatenation</strong>.</p>
+</section>
+
+<section>
+  <h2>Putting it all together</h2>
+  <p>You now have all the tools to dynamically create a webpage! It might strain your brain, but it's time to put <strong>everything we learnt into practice</strong>.</p>
+</section>
+
+<section>
+  <h2>omg let's build.</h2>
+  <a href="http://bit.ly/dbc-jquery-intro">bit.ly/dbc-jquery-intro</a>
+  <aside class="fragment">
+    <p>Task: when you click the button all of the tweets will appear in new paragraphs on the page.</p>
+    You will need to use:
+    <ul>
+      <li>Loops</li>
+      <li>Array methods</li>
+      <li>Object methods</li>
+      <li>jQuery selectors</li>
+      <li>jQuery event listeners</li>
+      <li>the jQuery append method</li>
+    </ul>
+  </aside>
+</section>
+
+<section>
+  <h2>Resources to learn more</h2>
+  <ul>
+    <li>Codecademy</li>
+    <li>Code School</li>
+    <li>Treehouse</li>
+    <li>Stack Overflow</li>
+    <li>jQuery Documentation</li>
+    <li>MDN (Mozilla Developer Network)</li>
+    <li>W3 Schools</li>
+    <li>Guides and blog posts</li>
+    <li>Google</li>
+    <li>Playing around!</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Thanks for joining us!</h2>
+</section>
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
 
       // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
@@ -1260,16 +1262,16 @@ $("#main-container").append("<p>" + dataFromSomewhere + "</p>")
 
         // Optional reveal.js plugins
         dependencies: [
-          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-          { src: 'plugin/zoom-js/zoom.js', async: true },
-          { src: 'plugin/notes/notes.js', async: true }
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true },
+        { src: 'plugin/notes/notes.js', async: true }
         ]
       });
 
-    </script>
+      </script>
 
-  </body>
-</html>
+    </body>
+    </html>

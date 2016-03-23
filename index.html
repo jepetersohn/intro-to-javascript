@@ -528,8 +528,8 @@
           <pre>
             <code class="javascript">
               var letters = ["a","b","c","d","e","f","g","h"];
-              letters[0] // returns "a"
-              letters[7] // returns "h"
+              letters[0] // -> "a"
+              letters[7] // -> "h"
             </code>
           </pre>
         </section>
@@ -540,9 +540,9 @@
           <pre>
             <code class="javascript">
               var letters = ["a","b","c","d","e","f","g","h"];
-              letters[0] = "apples"  // returns "apples"
-              letters[1] = "bananas" // returns "bananas"
-              letters      // returns ["apples","bananas","c","d","e","f","g","h"]
+              letters[0] = "apples"  // -> "apples"
+              letters[1] = "oranges" // -> "oranges"
+              letters      // -> ["apples","oranges","c","d","e","f","g","h"]
             </code>
           </pre>
         </section>
@@ -553,8 +553,8 @@
           <pre>
             <code class="javascript">
               var letters = ["a","b","c","d"];
-              letters.push("elephant") // returns "elephant"
-              letters // returns ["a","b","c","d","elephant"]
+              letters.push("elephant") // -> "elephant"
+              letters // -> ["a","b","c","d","elephant"]
             </code>
           </pre>
           <p>The <strong>push</strong> function adds an element to the end of an array.</p>
@@ -566,8 +566,8 @@
           <pre>
             <code class="javascript">
               var letters = ["a","b","c","d", "elephant"];
-              letters.unshift("zebra") // returns "zebra"
-              letters // returns ["zebra","a","b","c","d", "elephant"]
+              letters.unshift("zebra") // -> "zebra"
+              letters // -> ["zebra","a","b","c","d", "elephant"]
             </code>
           </pre>
           <p>The <strong>unshift</strong> function adds an element to the start of an array.</p>
@@ -580,8 +580,8 @@
           <pre>
             <code class="javascript">
               var letters = ["a","b","c","d"];
-              var char = letters.pop() // returns "d"
-              letters // returns ["a","b","c"]
+              var char = letters.pop() // -> "d"
+              letters // -> ["a","b","c"]
             </code>
           </pre>
           <p>The <strong>pop</strong> function removes an element from the end of an array.</p>
@@ -594,8 +594,8 @@
           <pre>
             <code class="javascript">
               var letters = ["a","b","c","d"];
-              var char = letters.shift() // returns "a"
-              letters // returns ["b","c", "d"]
+              var char = letters.shift() // -> "a"
+              letters // -> ["b","c", "d"]
             </code>
           </pre>
           <p>The <strong>shift</strong> function removes an element from the start of an array.</p>
@@ -637,10 +637,10 @@
           <pre>
             <code class="javascript">
               var fruits = ["apple","banana","carrot"];
-              fruits.length // returns 3
-              fruits[2].length // returns 6
+              fruits.length // -> 3
+              fruits[2].length // -> 6
               fruits.push("d");
-              fruits.length // returns 4
+              fruits.length // -> 4
             </code>
           </pre>
           <p><strong>length</strong> is a good example of a <strong>property</strong> on both arrays and strings. Note how properties don't need parentheses after them.</p>
@@ -683,8 +683,8 @@
           <pre>
             <code class="javascript">
               var person = {name: "Sam", age: 28, sex: "male"};
-              person.name      // returns "Sam"
-              person["name"]   // returns "Sam"
+              person.name      // -> "Sam"
+              person["name"]   // -> "Sam"
             </code>
           </pre>
         </section>
@@ -695,13 +695,13 @@
           <pre>
             <code class="javascript">
               var person = {name: "Sam", age: 28, sex: "male"};
-              person.age = 29      // returns 29
+              person.age = 29      // -> 29
 
               person
               // now contains
               {name: "Sam", age: 29, sex: "male"}
 
-              person.age           // returns 29
+              person.age           // -> 29
             </code>
           </pre>
         </section>
@@ -712,7 +712,7 @@
           <pre>
             <code class="javascript">
               var person = {name: "Sam", age: 28, sex: "male"};
-              person.gender = "cis male"  // returns "cis male"
+              person.gender = "cis male"  // -> "cis male"
 
               person
               // now contains
@@ -727,13 +727,13 @@
           <pre>
             <code class="javascript">
               var person = {name: "Sam", age: 28, sex: "male", gender: "cis male"}
-              delete person.sex // returns true
+              delete person.sex // -> true
 
               person
               // now contains
               {name: "Sam", age: 28, gender: "cis male"}
 
-              person.sex        // returns undefined
+              person.sex        // -> undefined
             </code>
           </pre>
           <p>The <strong>delete</strong> operator removes a <strong>key value pair</strong> from an object.</p>
@@ -983,11 +983,11 @@
       return "Welcome to my website, " + name;
     }
 
-    createGreeting("Sam")     // returns "Welcome to my website, Sam"
+    createGreeting("Sam")     // -> "Welcome to my website, Sam"
 
-    createGreeting("Debbie")  // returns "Welcome to my website, Debbie"
+    createGreeting("Debbie")  // -> "Welcome to my website, Debbie"
 
-    createGreeting("Britney") // returns "Welcome to my website, Britney"
+    createGreeting("Britney") // -> "Welcome to my website, Britney"
 
     alert(createGreeting("Stranger"))
   </code>

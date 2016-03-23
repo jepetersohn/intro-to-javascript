@@ -557,7 +557,7 @@
               letters // returns ["a","b","c","d","elephant"]
             </code>
           </pre>
-          <p>The <strong>push</strong> method adds an element to the end of an array.</p>
+          <p>The <strong>push</strong> function adds an element to the end of an array.</p>
         </section>
 
         <section>
@@ -570,7 +570,7 @@
               letters // returns ["zebra","a","b","c","d", "elephant"]
             </code>
           </pre>
-          <p>The <strong>unshift</strong> method adds an element to the start of an array.</p>
+          <p>The <strong>unshift</strong> function adds an element to the start of an array.</p>
           <aside class="notes">What element is in index zero of the array now?</aside>
         </section>
 
@@ -584,7 +584,7 @@
               letters // returns ["a","b","c"]
             </code>
           </pre>
-          <p>The <strong>pop</strong> method removes an element from the end of an array.</p>
+          <p>The <strong>pop</strong> function removes an element from the end of an array.</p>
           <aside class="notes">What element is in index zero of the array now?</aside>
         </section>
 
@@ -598,38 +598,38 @@
               letters // returns ["b","c", "d"]
             </code>
           </pre>
-          <p>The <strong>shift</strong> method removes an element from the start of an array.</p>
+          <p>The <strong>shift</strong> function removes an element from the start of an array.</p>
           <aside class="notes">What element is in index zero of the array now?</aside>
         </section>
 
         <section>
-          <h3>A quick note on Methods</h3>
+          <h3>A quick note on Functions</h3>
         </section>
 
         <section>
-          <h2>Methods</h2>
-          <p>All data types in JavaScript come with some built in behavior called <strong>methods</strong>. We've already seen a few array methods with push, pop, shift and unshift.</p>
+          <h2>Functions</h2>
+          <p>All data types in JavaScript come with some built in behavior called <strong>functions</strong>. We've already seen a few array functions with push, pop, shift and unshift.</p>
         </section>
 
         <section>
-          <h2>Method syntax</h2>
+          <h2>Function syntax</h2>
           <pre>
             <code class="javascript">
               var letters = ["a","b","c"];
               letters.push("d");
               // --------------------------
-              letters // the array that we're calling our method on
-              .       // the dot to signify we're about to call a method
-              push    // the name of the method
-              ("d")   // the actual calling of the method with a string argument
+              letters // the array that we're calling our function on
+              .       // the dot to signify we're about to call a function
+              push    // the name of the function
+              ("d")   // the actual calling of the function with a string argument
             </code>
           </pre>
-          <p>We <strong>call a method</strong> with a dot, followed by the method name, followed by a set of parentheses. Sometimes we put other data inside the parens, known as <strong>arguments</strong>; other times methods don't require arguments.</p>
+          <p>We <strong>call a function</strong> with a dot, followed by the function name, followed by a set of parentheses. Sometimes we put other data inside the parens, known as <strong>arguments</strong>; other times functions don't require arguments.</p>
         </section>
 
         <section>
           <h2>Properties</h2>
-          <p>Things in JavaScript can also have <strong>properties</strong>. You access and modify properties similarly to methods, except you do not include the parentheses.</p>
+          <p>Things in JavaScript can also have <strong>properties</strong>. You access and modify properties similarly to functions, except you do not include the parentheses.</p>
         </section>
 
         <section>
@@ -647,8 +647,8 @@
         </section>
 
         <section>
-          <h2>Methods vs Properties</h2>
-          <p>It can be very confusing to know whether something is a <strong>method</strong> or an <strong>property</strong> when you start out with JavaScript. It's something you'll get used to.</p>
+          <h2>Functions vs Properties</h2>
+          <p>It can be very confusing to know whether something is a <strong>function</strong> or an <strong>property</strong> when you start out with JavaScript. It's something you'll get used to.</p>
           <p>Remember you always have the Web to look things up!</p>
         </section>
 
@@ -738,7 +738,7 @@
           </pre>
           <p>The <strong>delete</strong> operator removes a <strong>key value pair</strong> from an object.</p>
           <aside class="notes">
-            Why did I not call `delete` a method?
+            Why did I not call `delete` a function?
             It's relatively rare to use `delete`. Most often you are reading or accessing data. Second most, adding or inserting data. Third most, updating data. Rarely, deleting or removing data.
           </aside>
         </section>
@@ -1104,8 +1104,8 @@
 </section>
 
 <section>
-  <h2>jQuery methods</h2>
-  <p>Once we have selected elements, we can <strong>call jQuery methods</strong> on those elements:</p>
+  <h2>jQuery functions</h2>
+  <p>Once we have selected elements, we can <strong>call jQuery functions</strong> on those elements:</p>
   <pre>
     <code class="javascript">
       $("p").css("background-color", "aqua");
@@ -1122,7 +1122,7 @@
   <aside class="notes">
     <ul>
       <li>Try changing the styling of different elements using jQuery.</li>
-      <li>Replace the text in the paragraph using the "text" jQuery method.</li>
+      <li>Replace the text in the paragraph using the "text" jQuery function.</li>
     </ul>
   </aside>
 </section>
@@ -1180,13 +1180,13 @@
 
 <section>
   <h2>Updating the page</h2>
-  <p>Here's one more super helpful <strong>jQuery method</strong> called `append`:</p>
+  <p>Here's one more super helpful <strong>jQuery function</strong> called `append`:</p>
   <pre>
     <code class="javascript">
       $("#main-container").append("<p>A friendly paragraph!</p>")
     </code>
   </pre>
-  <p>The append method will append whatever <strong>HTML string</strong> you pass it as an argument to the element(s) you originally <strong>selected</strong>.</p>
+  <p>The append function will append whatever <strong>HTML string</strong> you pass it as an argument to the element(s) you originally <strong>selected</strong>.</p>
 </section>
 
 <section>
@@ -1214,11 +1214,11 @@
     You will need to use:
     <ul>
       <li>Loops</li>
-      <li>Array methods</li>
-      <li>Object methods</li>
+      <li>Array functions</li>
+      <li>Object functions</li>
       <li>jQuery selectors</li>
       <li>jQuery event listeners</li>
-      <li>the jQuery append method</li>
+      <li>the jQuery append function</li>
     </ul>
   </aside>
 </section>
